@@ -23,5 +23,5 @@ npm test
 
 ## Contributing
 Contributions are welcome. If you are adding a new feature please be sure to add a new
-[test case](https://github.com/bobby-brennan/rss-parser/tree/master/test/input)
+[test case](https://github.com/jeffyboh/brewfuncs/tree/master/test)
 

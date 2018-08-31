@@ -1,6 +1,6 @@
 {
   "name": "brewfuncs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Helpful calculations used in brewing beer",
   "main": "dist/index.js",
   "jsnext:main": "src/index.js",
