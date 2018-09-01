@@ -1,6 +1,10 @@
 import chai from 'chai';
 import abv from '../src/calc/abv';
 import round from '../src/calc/round';
+import convertSgToPlato from '../src/converters/convertSgToPlato';
+import convertPlatoToSg from '../src/converters/convertPlatoToSg';
+//import {convertPlatoToSg} from '../src/convert/converter';
+//import {convertSgToPlato} from '../src/convert/converter';
 
 const assert = chai.assert;
 
@@ -36,3 +40,19 @@ describe('abv calculator', function() {
         assert.equal(alc, 5.25);
     });
 });
+
+describe('converters', function() {
+    describe('convert from Plato', function () {
+        it ('should convert to something on chart', function() {
+            var sg = convertPlatoToSg(12);
+            assert.isAtMost(sg, 1.048);
+        });
+    });
+    describe('convert from SG', function() {
+        it ('should convert within chart values', function() {
+            var plato = convertSgToPlato(1.048);
+            assert.isAtMost(plato, 12);
+            assert.isAtLeast(plato, 11.8);
+        });
+    });
+})

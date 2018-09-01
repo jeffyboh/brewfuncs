@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/jeffyboh/brewfuncs.svg?branch=master)](https://travis-ci.org/jefyboh/brewfuncs)[![Coverage Status](https://coveralls.io/repos/github/jeffyboh/brewfuncs/badge.svg?branch=master)](https://coveralls.io/github/jeffyboh/brewfuncs?branch=master)
+[![Build Status](https://travis-ci.org/jeffyboh/brewfuncs.svg?branch=master)](https://travis-ci.org/jefyboh/brewfuncs)
+[![Coverage Status](https://coveralls.io/repos/github/jeffyboh/brewfuncs/badge.svg?branch=master)](https://coveralls.io/github/jeffyboh/brewfuncs?branch=master)
 # brewfuncs
 Helpful calculations used in brewing beer
 
